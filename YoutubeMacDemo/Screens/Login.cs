@@ -123,5 +123,10 @@ namespace YoutubeMacDemo
             this.WindowState = FormWindowState.Minimized;
             button2.ForeColor = Color.White;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("thsi is commit");
+        }
     }
 }
